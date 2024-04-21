@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    margin: 100px;
+}
+.card {
+    height: 50%;
+    width: 100%;
+    
+    
+}
+.card img{
+    position: absolute;
+    object-fit: cover;
+    
+}
+.caption{
+    height: 50%;
+    width: 626px;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top:130px;
+    color: beige;
+    padding: 10px;
+    font-family: "Caveat", "cursive";
+}
+h3{
+    font-size: 2.75rem;
+    
+}
+p{
+    font-size: 1.25rem;
+    
+    
+}
